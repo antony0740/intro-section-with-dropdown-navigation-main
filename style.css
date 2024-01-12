@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'epilogue';
+}
+body{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.logo{
+ position: absolute;
+ top: 5.5vh;
+ left: 20vh;
+}
+.navbar_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav1{
+  position: absolute;
+  left: 15rem;
+  top: 6vh;
+}
+.nav2{
+  position: relative;
+  left: 65rem;
+  top: 0.2vh;
+}
+
+.nav1 a{
+ text-decoration: none;
+ color: hsl(0, 0%, 41%);
+ padding-left: 20px;
+}
+.nav2 a{
+ text-decoration: none;
+ color: hsl(0, 0%, 41%);
+ padding-right: 40px;
+}
+button{
+ padding-left:20px;
+ padding-top:10px;
+ padding-right:20px;
+ padding-bottom:10px;
+ border-radius:15px;
+ color: hsl(0, 0%, 41%);
+ background-color: hsl(0, 0%, 98%);
+ border: 2px solid;
+ border-color: hsl(0, 0%, 41%);
+}
+.arrow_down{
+margin-bottom: 2px;
+}
+.home_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.hero_container{
+  width: 35%;
+  margin-top: 50px;
+  padding-right: 100px;
+}
+.image_container{
+  width: 100%;
+  padding-right: 100px;
+ 
+}
+.img_hero{
+  width: auto;
+  height: 80vh;
+}
+h1{
+  padding-bottom: 10px;
+  font-size: 55px;
+  
+}
+p{
+  padding-bottom: 50px;
+  line-height: 25px;
+  color: hsl(0, 0%, 41%);
+  letter-spacing: 0.5px;
+
+}
+.learn{
+  margin-bottom:20px;
+  background-color: hsl(0, 0%, 8%);
+  color:hsl(0, 0%, 98%);
+  padding-top: 15px;
+  padding-bottom:15px;
+  padding-left:30px;
+  padding-right:30px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+}
+.bottom_logos{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -15px;
+}
